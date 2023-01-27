@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="outside-container">
       <div className='inside-container' style={{width: `${p}%`}}>
-        <img src="/images/Icon.png" alt="Gengar Icon" />
+        <img src="NotionProgressBar/images/Icon.png" alt="Gengar Icon" />
       </div>
     </div>
   )
