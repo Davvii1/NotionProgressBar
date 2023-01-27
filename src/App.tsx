@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import Icon from '../public/images/Icon.png'
 import './App.css'
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
   return (
     <div className="outside-container">
       <div className='inside-container' style={{width: `${p}%`}}>
-        <img src="/images/Icon.png" alt="Gengar Icon" />
+        <img src={Icon} alt="Gengar Icon" />
       </div>
     </div>
   )
